@@ -1,0 +1,337 @@
+<?php 
+//This is dev automatic generate 
+ return array (
+  'languages' => 
+  array (
+    'en' => '英語',
+    'ja' => '日本語',
+    'zh' => '中国語',
+    'hi' => 'ヒンディー語',
+    'se' => 'スペイン語',
+    'ru' => 'ロシア語',
+    'fr' => 'フランス語',
+    'ar' => 'アラビア語',
+    'pt' => 'ポルトガル語',
+    'ms' => 'マレー語',
+    'bn' => 'ベンガル語',
+    'de' => 'ドイツ語',
+    'ur' => 'ウルドゥー語',
+    'it' => 'イタリア語',
+    'ko' => '韓国語',
+    'vi' => 'ベトナム語',
+    'fa' => 'ペルシア語',
+    'tl' => 'タガログ語',
+    'tr' => 'トルコ語',
+    'other' => 'その他',
+  ),
+  'body_type' => 
+  array (
+    'petite' => '小柄',
+    'slender' => 'スレンダー',
+    'normal' => 'ふつう',
+    'plump' => 'ふっくら',
+    'thick' => '太め',
+    'muscular_quality' => '筋肉質',
+    'glamor' => 'グラマー',
+  ),
+  'blood_type' => 
+  array (
+    'a' => 'A型',
+    'b' => 'B型',
+    'o' => 'O型',
+    'ab' => 'AB型',
+    'unknown' => '不明',
+  ),
+  'brother_sister' => 
+  array (
+    'other' => 'その他',
+    'first' => '長男',
+    'second' => '次男',
+    'third' => '三男',
+  ),
+  'marital_status' => 
+  array (
+    'none' => 'なし',
+    'divorce' => 'あり（離婚）',
+    'bereavement' => 'あり（死別）',
+  ),
+  'child_status' => 
+  array (
+    'none' => 'いない',
+    'living_together' => 'いる（同居）',
+    'separated' => 'いる（別居）',
+  ),
+  'jobn_ames' => 
+  array (
+    'office_sales' => '会社員（営業）',
+    'technical' => '会社員（技術）',
+    'planning' => '会社員（企画）',
+    'service' => '会社員（サービス）',
+    'company_sales' => '会社員（販売）',
+    'creative' => '会社員（クリエイティブ）',
+    'clerical' => '会社員（事務）',
+    'manager' => '会社員（管理職）',
+    'employee_other' => '会社員（その他）',
+    'company_executive' => '会社役員',
+    'company_management' => '会社経営',
+    'government_official' => '国家公務員',
+    'local_public_servant' => '地方公務員',
+    'self_employed' => '自営業',
+    'profession' => '専門職',
+    'group_staff' => '団体職員',
+    'temporary_staff' => '派遣社員',
+    'part_time' => 'アルバイト',
+    'domestic_help' => '家事手伝い',
+    'other' => 'その他',
+  ),
+  'job_salary' => 
+  array (
+    'group_1' => '200万円未満',
+    'group_2' => '200万円以上～400万円未満',
+    'group_3' => '400万円以上～600万円未満',
+    'group_4' => '600万円以上～800万円未満',
+    'group_5' => '800万円以上～1,000万円未満',
+    'group_6' => '1,000万円以上～1,500万円未満',
+    'group_7' => '1,500万円以上',
+  ),
+  'final_education' => 
+  array (
+    'level_1' => '義務教育',
+    'level_2' => '高等学校',
+    'level_3' => '高等専門学校',
+    'level_4' => '専門学校',
+    'level_5' => '短大',
+    'level_6' => '大学',
+    'level_7' => '大学院',
+  ),
+  'last_educational_qualification' => 
+  array (
+    'group_1' => '卒業',
+    'group_2' => '中退',
+    'group_3' => '在学',
+  ),
+  'lifestyle_sex' => 
+  array (
+    'group_1' => 'セックス',
+    'group_2' => '消極的',
+    'group_3' => '相手にお任せ',
+    'group_4' => '週に1回くらい',
+    'group_5' => '週に2～3回くらい',
+    'group_6' => '毎日する',
+  ),
+  'lifestyle_sociability' => 
+  array (
+    'group_1' => '大人数が好き',
+    'group_2' => '少人数が好き',
+    'group_3' => '一人が好き',
+    'group_4' => 'すぐに仲良くなる',
+    'group_5' => '徐々に仲良くなる',
+  ),
+  'lifestyle_character' => 
+  array (
+    'group_1' => '気分屋',
+    'group_2' => '奥手',
+    'group_3' => 'マイペース',
+    'group_4' => '裏表がない',
+    'group_5' => '天然と言われる',
+    'group_6' => '気前がいい',
+    'group_7' => '寛容',
+    'group_8' => '大胆',
+    'group_9' => 'マメ',
+    'group_10' => '気が利く',
+    'group_11' => '熱い',
+    'group_12' => '面白い',
+    'group_13' => '負けず嫌い',
+    'group_14' => '合理的',
+    'group_15' => '行動的',
+    'group_16' => 'さわやか',
+    'group_17' => '聞き上手',
+    'group_18' => '話し上手',
+    'group_19' => '面倒見が良い',
+    'group_20' => '責任感がある',
+    'group_21' => '仕事好き',
+    'group_22' => '家庭的',
+    'group_23' => '好奇心旺盛',
+    'group_24' => '冷静沈着',
+    'group_25' => '社交的',
+    'group_26' => 'さびしがり',
+    'group_27' => '思いやりがある',
+    'group_28' => '厳格',
+    'group_29' => '謙虚',
+    'group_30' => '落ち着いている',
+    'group_31' => '上品',
+    'group_32' => 'いつも笑顔',
+    'group_33' => '照れ屋',
+    'group_34' => '楽観的',
+    'group_35' => '几帳面',
+    'group_36' => '誠実',
+    'group_37' => '知的',
+    'group_38' => '真面目',
+    'group_39' => 'アウトドア',
+    'group_40' => 'インドア',
+    'group_41' => '明るい',
+    'group_42' => '親しみやすい',
+    'group_43' => '穏やか',
+    'group_44' => '決断力がある',
+    'group_45' => '素直',
+    'group_46' => '優しい',
+  ),
+  'lifestyle_charm_point' => 
+  array (
+    'group_1' => '大きな目',
+    'group_2' => 'ぱっちり二重',
+    'group_3' => '奥二重',
+    'group_4' => '一重',
+    'group_5' => 'たれ目',
+    'group_6' => 'メガネ',
+    'group_7' => '高い鼻',
+    'group_8' => 'きれいな肌',
+    'group_9' => '白い歯',
+    'group_10' => '歯並び',
+    'group_11' => '八重歯',
+    'group_12' => 'えくぼ',
+    'group_13' => '小麦色の肌',
+    'group_14' => '笑顔',
+    'group_15' => '童顔',
+    'group_16' => '声',
+    'group_17' => '鎖骨',
+    'group_18' => '綺麗な手・指',
+    'group_19' => '長い足',
+    'group_20' => 'きれいな髪',
+    'group_21' => '長いまつげ',
+    'group_22' => 'フェイスライン',
+    'group_23' => '色白',
+    'group_24' => 'アヒル口',
+    'group_25' => '唇',
+    'group_26' => '眉毛',
+    'group_27' => '黒髪',
+    'group_28' => '小顔',
+    'group_29' => 'うなじ',
+    'group_30' => '細い手足',
+  ),
+  'lifestyle_sake' => 
+  array (
+    'group_1' => 'まったく飲まない',
+    'group_2' => '年に2～3回くらい',
+    'group_3' => '週に1回くらい',
+    'group_4' => '週に2～3回くらい',
+    'group_5' => '毎日飲む',
+  ),
+  'lifestyle_smoking' => 
+  array (
+    'group_1' => 'まったく吸わない',
+    'group_2' => '年に数本くらい',
+    'group_3' => '月に数本くらい',
+    'group_4' => '週に数本くらい',
+    'group_5' => '毎日吸う',
+  ),
+  'lifestyle_cohabitant' => 
+  array (
+    'group_1' => '一人暮らし',
+    'group_2' => '友達と一緒',
+    'group_3' => 'ペットと一緒',
+    'group_4' => '実家暮らし',
+    'group_5' => 'その他',
+  ),
+  'lifestyle_holiday' => 
+  array (
+    'group_1' => '月',
+    'group_2' => '火',
+    'group_3' => '水',
+    'group_4' => '木',
+    'group_5' => '金',
+    'group_6' => '土',
+    'group_7' => '日',
+    'group_8' => '祝日',
+    'group_9' => '不定期',
+  ),
+  'after_marriage_job' => 
+  array (
+    'group_1' => '共働き',
+    'group_2' => '共働き（女性がアルバイト・パート）',
+    'group_3' => '共働き（男性がアルバイト・パート）',
+    'group_4' => '専業主婦',
+    'group_5' => '専業主夫',
+    'group_6' => 'わからない',
+  ),
+  'after_marriage_house_work' => 
+  array (
+    'group_1' => '家事はほとんど自分がやりたい',
+    'group_2' => '家事はほとんど結婚相手にしてもらいたい',
+    'group_3' => '家事は夫婦で分担したい',
+    'group_4' => '分からない',
+  ),
+  'after_marriage_parent' => 
+  array (
+    'group_1' => '子育てはほとんど自分でやりたい',
+    'group_2' => '子育てはほとんど結婚相手にやってもらいたい',
+    'group_3' => '子育ては夫婦で分担したい',
+    'group_4' => '子どもは欲しくない',
+    'group_5' => 'わからない',
+  ),
+  'marriage_time' => 
+  array (
+    'group_1' => 'すぐにでも結婚したい',
+    'group_2' => '1年以内に結婚したい',
+    'group_3' => '1～2年以内に結婚したい',
+    'group_4' => '2～3年以内に結婚したい',
+    'group_5' => 'じっくり付き合ってから結婚したい',
+  ),
+  'marriage_hope' => 
+  array (
+    'group_1' => 'まず会いたい',
+    'group_2' => 'メッセージ交換してから',
+    'group_3' => 'じっくり考えてから',
+  ),
+  'marriage_friend' => 
+  array (
+    'group_1' => 'どちらでも',
+    'group_2' => 'はい',
+    'group_3' => 'いいえ',
+  ),
+  'marriage_first_date_cost' => 
+  array (
+    'group_1' => '男性がすべて払う',
+    'group_2' => '男性が多めに払う',
+    'group_3' => '割り勘',
+    'group_4' => '相手と相談',
+  ),
+  'marriage_partner_selection' => 
+  array (
+    'group_1' => 'なし',
+    'group_2' => '年齢・写真の印象',
+    'group_3' => '生活・経験の豊かさ',
+    'group_4' => '人柄・価値観',
+    'group_5' => '恋活の真剣度',
+    'group_6' => '婚活の真剣度',
+  ),
+  'marriage_hobby' => 
+  array (
+    'group_1' => '夫婦で共有できる趣味を持ちたい',
+    'group_2' => '夫婦で別々の趣味を持ちたい',
+    'group_3' => 'わからない',
+  ),
+  'marriage_holiday' => 
+  array (
+    'group_1' => '休日は、できるだけ夫婦一緒に過ごしたい',
+    'group_2' => '休日は、できるだけ夫婦別々で、自分の時間を過ごしたい',
+    'group_3' => 'わからない',
+  ),
+  'basic_housing' => 
+  array (
+    'group_1' => '家族と同居',
+    'group_2' => '１人暮らし',
+    'group_3' => '他',
+  ),
+  'residence' => 
+  array (
+    'group_1' => '持ち家',
+    'group_2' => '賃貸',
+    'group_3' => 'その他',
+  ),
+  'payment_method' => 
+  array (
+    'method_1' => 'クレジットカード',
+    'method_2' => '当日会場現金払い',
+  ),
+);
