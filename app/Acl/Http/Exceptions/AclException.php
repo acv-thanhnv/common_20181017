@@ -9,6 +9,7 @@
 namespace App\Acl\Http\Exceptions;
 
 
+use App\Core\Common\SDBStatusCode;
 use Illuminate\Validation\ValidationException;
 
 class AclException extends ValidationException
@@ -20,6 +21,8 @@ class AclException extends ValidationException
 
     public function errors()
     {
-        return trans('acl_not_access');
+        return array(
+            'status'=>SDBStatusCode::ACLNotPass,
+            'message'=>trans('acl_not_access'));
     }
 }

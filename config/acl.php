@@ -14,7 +14,7 @@
 		'App\Acl\Http\Controllers\aclcontroller\index'=>'0',
 		'App\Acl\Http\Controllers\aclcontroller\updateaclactive'=>'0',
 		'App\Acl\Http\Controllers\aclcontroller\updateaclactiveall'=>'0',
-		'App\Api\V1\Http\Controllers\usercontroller\login'=>'1',
+		'App\Api\V1\Http\Controllers\usercontroller\login'=>'0',
 		'App\Api\V1\Http\Controllers\catelorycontroller\index'=>'1',
 		'App\Api\V1\Http\Controllers\usercontroller\logout'=>'0',
 		'App\Backend\Http\Controllers\homecontroller\index'=>'0',
