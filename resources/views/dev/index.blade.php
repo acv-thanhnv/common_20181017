@@ -50,12 +50,14 @@
                             </div>
                             <div class="col-md-3 text-right"><button id="import-trans" class="btn-primary btn">Reset & import translation</button></div>
                         </div>
+                        <?php if($readyImportTransFromRemote == true) {?>
                         <div class="col-md-12 table-bordered">
                             <div class="col-md-10">
                                 - Get data translation from Other server, server information has must configed inside .env  <br>
                             </div>
                             <div class="col-md-2 text-right"><button id="import-trans-test" class="btn-primary btn">Import translation</button></div>
                         </div>
+                        <?php } ?>
                         <div class="clearfix"></div>
                     </div>
                 </div>
