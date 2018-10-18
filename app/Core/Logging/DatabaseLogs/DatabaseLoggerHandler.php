@@ -2,9 +2,6 @@
 
 namespace App\Core\Logging\DatabaseLogs;
 
-use App\Core\Helpers\CommonHelper;
-use App\Dev\Dao\DEVDB;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Request;
 use Monolog\Handler\AbstractProcessingHandler;
