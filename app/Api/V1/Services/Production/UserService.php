@@ -36,6 +36,7 @@ class UserService implements UserServiceInterface
         }catch (\Exception $exception){
             SDB::rollBack();
             $result->status =  SDBStatusCode::Excep;
+            $result->message= $exception->getMessage();
         }
         return $result;
     }
