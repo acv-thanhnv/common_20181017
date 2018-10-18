@@ -291,7 +291,8 @@
                     type: 'Post',
                     url: "<?php echo @route('refreshAclInDB')?>",
                     success: function (result) {
-                        $.alert(
+                        if(result.status=='{{\App\Core\Common\SDBStatusCode::OK}}'){
+                            $.alert(
                                 {
                                     title: 'Alert!',
                                     content: 'Synchronized!',
@@ -301,7 +302,16 @@
                                         }
                                     }
                                 }
-                        );
+                            );
+                        }else{
+                            $.alert(
+                                {
+                                    title: 'Error!',
+                                    content: result.message,
+                                }
+                            );
+                        }
+
                     }
                 });
             });

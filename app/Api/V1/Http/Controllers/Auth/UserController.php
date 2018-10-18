@@ -2,8 +2,10 @@
 
 namespace App\Api\V1\Http\Controllers\Auth;
 
+use App\Api\V1\Http\Requests\RegisterNormalRequest;
 use App\Api\V1\Models\User;
 use App\Api\V1\Http\Controllers\Controller;
+use App\Api\V1\Services\Interfaces\UserServiceInterface;
 use App\Core\Common\SDBStatusCode;
 use App\Core\Common\ApiConst;
 use App\Core\Entities\DataResultCollection;
@@ -31,8 +33,10 @@ class UserController extends Controller
      *
      * @return void
      */
-    public function __construct()
+    protected $userService;
+    public function __construct(UserServiceInterface $userService)
     {
+        $this->userService = $userService;
         $this->middleware('guest')->except('logout');
     }
     public function username()
@@ -87,7 +91,11 @@ class UserController extends Controller
 
         return ResponseHelper::JsonDataResult($response);
     }
-
+    public function registerNormal(RegisterNormalRequest $request)
+    {
+            $result = $this->userService->registerNormal($request->all());
+            return ResponseHelper::JsonDataResult($result);
+    }
     /**
      * revoke current token
      * @return \Illuminate\Http\JsonResponse
