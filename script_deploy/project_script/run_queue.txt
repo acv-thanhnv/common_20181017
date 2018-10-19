@@ -1,0 +1,1 @@
+/var/www/html/project/artisan php artisan queue:work
